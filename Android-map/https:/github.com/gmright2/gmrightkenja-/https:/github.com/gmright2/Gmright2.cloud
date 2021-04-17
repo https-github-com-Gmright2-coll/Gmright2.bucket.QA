@@ -1,0 +1,6 @@
+uses: Georgemakulu/packagecloud-action
+env:
+  PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
+with:
+  repo: 'gmright2'
+  dir: 'dist
